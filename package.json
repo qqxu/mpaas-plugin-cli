@@ -1,6 +1,6 @@
 {
   "name": "@ether/mpaas-plugin-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "bin/index.js",
   "bin": {
@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@shuhejs/mpaas": "1.0.0",
     "fs-extra": "10.0.0"
   }
 }
