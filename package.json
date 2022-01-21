@@ -1,13 +1,18 @@
 {
-  "name": "mpaas-plugin-cli",
-  "version": "1.0.0",
+  "name": "@ether/mpaas-plugin-cli",
+  "version": "0.0.3",
   "description": "",
-  "main": "./bin/index.js",
+  "main": "bin/index.js",
   "bin": {
-    "mpaas": "./bin/index.js"
+    "mpaas": "bin/index.js"
+  },
+  "publishConfig": {
+    "registry": "http://registry.caijj.net/repository/npm-caijiajia/",
+    "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish"
   },
   "author": "",
   "license": "ISC",
