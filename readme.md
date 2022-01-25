@@ -1,10 +1,11 @@
 ###
 
 ## 安装
+当前 mpaas-cli-plign 项目 A
 ```
 npm i 
 
-pwd // 当前目录 A
+npm link
 ```
 
 
