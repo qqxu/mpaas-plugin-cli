@@ -8,3 +8,8 @@
 
    feat:解决 changelog 没有commit问题
  
+### v2.0.0
+ 
+
+   1.0.0
+ 
