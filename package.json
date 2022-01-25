@@ -1,6 +1,6 @@
 {
   "name": "@shuhejs/mpaas-plugin-cli",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "",
   "main": "bin/index.js",
   "bin": {
