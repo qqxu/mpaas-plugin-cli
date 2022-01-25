@@ -1,6 +1,6 @@
 {
   "name": "@shuhejs/mpaas-plugin-cli",
-  "version": "0.0.6",
+  "version": "1.0.1",
   "description": "",
   "main": "bin/index.js",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "npm publish"
+    "pub": "node ./lib/publish.js"
   },
   "author": "",
   "license": "ISC",
