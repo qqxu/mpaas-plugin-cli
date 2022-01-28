@@ -1,9 +1,8 @@
-###
+### 打包工具
 
-## 安装
+业务需求：拷贝dist目录文件、读取package.json覆写配置文件，将所有文件 打包成一个zip
 
-
-## 调试
+### 调试
 当前 mpaas-cli-plign 项目 A
 ```
 npm i 
@@ -22,7 +21,7 @@ mpaas zip // 打包
 
 
 
-## 使用
+### 使用
 B项目 package.json
 
 ```
@@ -35,7 +34,7 @@ devDependencies: {
 
 ```
 
-## 生成json文件
+### 生成json文件
 生成包含空格的json文件
 
 ```
@@ -47,7 +46,7 @@ devDependencies: {
   fse.writeFileSync('config.json', dataStr);
 ```
 
-## 获取git提交信息
+### 获取git提交信息
 
 ```
   const childProcess = require('child_process');
@@ -62,7 +61,7 @@ devDependencies: {
 
 ```
 
-## 发布检验
+### 发布检验
 - 发布之前检验当前工作区 work tree
 - 命令行用户交互更新package.json version
 - 将最后一个commit 做为 changelog
@@ -85,7 +84,7 @@ devDependencies: {
 
 ```
 
-## 参考资料
+### 参考资料
 [脚手架开发](https://juejin.cn/post/6879265583205089287)
 
 
